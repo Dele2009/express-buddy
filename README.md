@@ -24,7 +24,7 @@ $ yarn create express-buddy
 
 ```
 
-
+<!-- 
 With PNPM:
 
 
@@ -43,7 +43,7 @@ With Bun:
 $ bun create express-buddy
 
 ```
-
+ -->
 
 Then follow the prompts!
 

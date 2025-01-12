@@ -8,7 +8,7 @@
   },
   "type": "module",
   "author": "Aminu Bamidele Obed",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/figlet": "^1.7.0",
     "@types/node": "^22.10.5",

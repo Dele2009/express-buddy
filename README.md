@@ -2,28 +2,64 @@
 
 `create-express-buddy` is a CLI tool for generating a Node.js, Express project template.
 
-## Installation
+> **Compatibility Note:**
 
-To install the CLI tool globally, run:
+> Vite requires [Node.js](https://nodejs.org/en/) version 18+, 20+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
 
+
+With NPM:
 ```bash
-npm install -g create-express-buddy
+
+$ npm create vite@latest
+
 ```
 
-## Usage
 
-To create a new Express project, run:
+With Yarn:
+
 
 ```bash
-npm create express-buddy <project-name>
+
+$ yarn create vite
+
 ```
 
-Replace `<project-name>` with the desired name of your project.
+
+With PNPM:
+
+
+```bash
+
+$ pnpm create vite
+
+```
+
+
+With Bun:
+
+
+```bash
+
+$ bun create vite
+
+```
+
+
+Then follow the prompts!
+
+
+You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:
+
+
+```bash
+npm create express-buddy@latest <app-name>
+```
+
 
 ### Example
 
 ```bash
-npm create express-buddy my-express-app
+npm create express-buddy@latest my-express-app
 ```
 
 This will create a new directory called `my-express-app` with the project template for the express app.
@@ -40,4 +76,4 @@ npm run dev
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.

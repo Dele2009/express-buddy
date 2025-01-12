@@ -1,6 +1,6 @@
 {
   "name": "create-express-buddy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Cli tool for generating NODEJS express-api template",
   "main": "src/index.js",
   "bin": {

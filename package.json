@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "Cli tool for generating NODEJS express-api template",
   "main": "src/index.js",
-  "bin":  "src/index.js",
+  "bin": {
+    "create-express-buddy": "src/index.js"
+  },
   "type": "module",
   "author": "Aminu Bamidele Obed",
   "license": "ISC",

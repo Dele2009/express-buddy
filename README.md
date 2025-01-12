@@ -4,13 +4,13 @@
 
 > **Compatibility Note:**
 
-> Vite requires [Node.js](https://nodejs.org/en/) version 18+, 20+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
+> This package requires [Node.js](https://nodejs.org/en/) version 18+, 20+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
 
 
 With NPM:
 ```bash
 
-$ npm create vite@latest
+$ npm create express-buddy@latest
 
 ```
 
@@ -20,7 +20,7 @@ With Yarn:
 
 ```bash
 
-$ yarn create vite
+$ yarn create express-buddy
 
 ```
 
@@ -30,7 +30,7 @@ With PNPM:
 
 ```bash
 
-$ pnpm create vite
+$ pnpm create express-buddy
 
 ```
 
@@ -40,7 +40,7 @@ With Bun:
 
 ```bash
 
-$ bun create vite
+$ bun create express-buddy
 
 ```
 
@@ -48,7 +48,7 @@ $ bun create vite
 Then follow the prompts!
 
 
-You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:
+You can also directly specify the project name you want to use via additional command line options. For example, to scaffold a new express-buddy project, run:
 
 
 ```bash

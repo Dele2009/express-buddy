@@ -48,21 +48,22 @@ $ bun create express-buddy
 Then follow the prompts!
 
 
-You can also directly specify the project name you want to use via additional command line options. For example, to scaffold a new express-buddy project, run:
+You can also directly specify the project name and project/template either javascript or typescript type you want to use via additional command line options. For example, to scaffold a new express-buddy project, run:
 
 
 ```bash
-npm create express-buddy@latest <app-name>
+# npm 7+, extra double-dash "--" is needed:
+npm create express-buddy@latest [app-name] -- --template js|ts
 ```
 
 
 ### Example
 
 ```bash
-npm create express-buddy@latest my-express-app
+npm create express-buddy@latest my-express-app -- --template js
 ```
 
-This will create a new directory called `my-express-app` with the project template for the express app.
+This will create a new directory called `my-express-app` with the project template for the express app and `--template js` will create the project using javascript
 
 ## Getting Started
 
